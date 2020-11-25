@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e52821b-08d2-4380-b9df-9615a89050db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/net/3rdparty/dpdk-confs/common_linuxapp-17.08" beforeDir="false" afterPath="$PROJECT_DIR$/net/3rdparty/dpdk-confs/common_linuxapp-17.08" afterDir="false" />
-    </list>
+    <list default="true" id="3e52821b-08d2-4380-b9df-9615a89050db" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +44,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606295818355</updated>
-      <workItem from="1606295819437" duration="1268000" />
+      <workItem from="1606295819437" duration="1625000" />
     </task>
     <servers />
   </component>
