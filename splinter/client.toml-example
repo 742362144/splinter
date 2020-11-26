@@ -2,29 +2,29 @@
 
 # The PCI address of the NIC the client is going to transmit and receive
 # packets on.
-nic_pci = "0000:03:00.1"
+nic_pci = "0000:02:00.1"
 
 # The MAC address of the NIC the client is going to transmit and receive
 # packets on.
-mac_address = "01:02:03:04:05:07"
+mac_address = "20:f1:7c:c5:7d:9a"
 
 # The IP address of the client (Not the one reported by ifconfig).
-ip_address = "192.168.0.1"
+ip_address = "133.133.135.55"
 
 ############################### SERVER N/W CONFIG ##############################
 
 # The MAC address of the NIC the server is going to transmit and receive
 # packets on.
-server_mac_address = "01:02:03:04:05:06"
+server_mac_address = "6c:92:bf:00:a7:11"
 
 # The IP address of the server (Not the one reported by ifconfig).
-server_ip_address = "192.168.0.2"
+server_ip_address = "133.133.135.54"
 
 # The number of server UDP ports to send requests to.
 server_udp_ports = 8
 
 # Server network endpoint receiving install() RPCs.
-install_addr = "127.0.0.1:7700"
+install_addr = "133.133.135.54:7700"
 
 ############################### GENERIC CLIENT CONFIG ##########################
 
