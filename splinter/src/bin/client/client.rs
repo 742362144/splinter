@@ -485,6 +485,7 @@ where
 }
 
 // Implementation of the `Drop` trait on PushbackRecv.
+// 自定义析构，打印吞吐量的信息
 impl<T> Drop for Client<T>
 where
     T: PacketTx + PacketRx + Display + Clone + 'static,
@@ -533,6 +534,7 @@ where
     }
 }
 
+// 自定义NetBricks中的可执行特性，供NetBricks线程池调用
 impl<T> Executable for Client<T>
 where
     T: PacketTx + PacketRx + Display + Clone + 'static,
@@ -542,6 +544,7 @@ where
         self.send();
         self.recv();
 
+        // if task queue has task to execute, then execute task.
         if self.native == false && self.manager.borrow().get_queue_len() > 0 {
             for _i in 0..MAX_CREDIT {
                 self.manager.borrow_mut().execute_task();
@@ -559,6 +562,7 @@ where
     }
 }
 
+// 选择一个配置文件去初始化client
 fn pick_client(
     table_id: u64,
     config: &config::ClientConfig,
@@ -628,7 +632,9 @@ fn main() {
 
     // Create tenants with extensions.
     info!("Populating extension for {} tenants", config.num_tenants);
+    // 为所有租户添加扩展
     for tenant in 1..(config.num_tenants + 1) {
+        // Loads the get(), put(), tao(), and bad() extensions.
         masterservice.load_test(tenant);
     }
 
@@ -641,6 +647,7 @@ fn main() {
     // The core id's which will run the sender and receiver threads.
     // XXX The following array heavily depend on the set of cores
     // configured in setup.rs
+    // 设定要运行的核心
     let senders_receivers = [0, 1, 2, 3, 4, 5, 6, 7];
     assert!(senders_receivers.len() == 8);
 

@@ -65,6 +65,11 @@ pub struct Container {
 
     // The actual generator/coroutine containing the extension's code to be
     // executed inside the database.
+
+    // A generator is a "resumable function" that syntactically resembles a closure
+    // but compiles to much different semantics in the compiler itself.
+    // The primary feature of a generator is that it can be suspended during execution to be resumed at a later date.
+    // 参考 https://doc.rust-lang.org/beta/unstable-book/language-features/generators.html
     gen: Pin<Box<Generator<Yield = u64, Return = u64>>>,
 
     // The identifier to uniquely identify a task.
@@ -94,8 +99,8 @@ impl Container {
         ext: Arc<Extension>,
         id: u64,
     ) -> Container {
-        // The generator is initialized to a dummy. The first call to run() will
-        // retrieve the actual generator from the extension.
+        // The generator is initialized to a dummy.
+        // The first call to run() will retrieve the actual generator from the extension.
         Container {
             state: INITIALIZED,
             priority: prio,

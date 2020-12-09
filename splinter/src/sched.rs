@@ -27,6 +27,9 @@ use db::task::{Task, TaskPriority, TaskState, TaskState::*};
 use sandstorm::common::TenantId;
 use util::model::GLOBAL_MODEL;
 
+/// Needed to handle and resume the pushback extension on the client side.
+
+
 /// TaskManager handles the information for a pushed-back extension on the client side.
 pub struct TaskManager {
     // A ref counted pointer to a master service. The master service
@@ -34,6 +37,7 @@ pub struct TaskManager {
     master: Arc<Master>,
 
     // The reference to the task generator, which is used to suspend/resume the generator.
+    // container impl task(define in db), and every client will add container(task) to ready.
     ready: VecDeque<Box<Task>>,
 
     ///  The HashMap containing the waiting tasks.
@@ -169,6 +173,7 @@ impl TaskManager {
         let mut taskstate: TaskState = INITIALIZED;
         let mut time: u64 = 0;
         if let Some(mut task) = task {
+
             if task.run().0 == COMPLETED {
                 taskstate = task.state();
                 time = task.time();

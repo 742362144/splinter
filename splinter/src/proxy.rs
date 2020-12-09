@@ -29,6 +29,10 @@ extern crate bytes;
 use self::bytes::{Bytes, BytesMut};
 use util::model::Model;
 
+/// Proxy to the database on the client side, searches the local cache for
+/// data and if not present on the cache then issues a request to the server.
+
+
 /// This struct represents a record for a read/write set. Each record in the read/write set will
 /// be of this type.
 #[derive(Clone)]

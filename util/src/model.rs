@@ -438,3 +438,13 @@ pub fn run_ml_application() -> (Vec<u8>, Vec<u8>, Vec<u8>) {
 
     (sgd, d_tree, r_forest)
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn model_test() {
+        run_ml_application();
+    }
+}

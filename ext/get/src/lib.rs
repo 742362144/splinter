@@ -21,8 +21,14 @@
 extern crate sandstorm;
 
 use std::rc::Rc;
+// + Rc让一个值有多个所有者，调用clone产生一个指针指向该值
+// + 当Rc指针全部销毁时，该值也销毁
+// + 不能通过Rc获得可变引用
+// + Rc是非原子引用，只能用于单线程，多线程用Arc
 use std::ops::Generator;
 use std::pin::Pin;
+// Pin 类型包着指针类型，保证指针背后的值将不被移动。例如 Pin<&mut T>，Pin<&T>， Pin<Box> 都保证 T 不会移动。
+// 防止发生垂悬引用
 
 use sandstorm::db::DB;
 

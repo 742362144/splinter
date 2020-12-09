@@ -9,7 +9,7 @@ nic_pci = "0000:02:00.1"
 mac_address = "20:f1:7c:c5:7d:9a"
 
 # The IP address of the client (Not the one reported by ifconfig).
-ip_address = "133.133.135.55"
+ip_address = "192.168.0.1"
 
 ############################### SERVER N/W CONFIG ##############################
 
@@ -18,13 +18,13 @@ ip_address = "133.133.135.55"
 server_mac_address = "6c:92:bf:00:a7:11"
 
 # The IP address of the server (Not the one reported by ifconfig).
-server_ip_address = "133.133.135.54"
+server_ip_address = "192.168.0.2"
 
 # The number of server UDP ports to send requests to.
 server_udp_ports = 8
 
 # Server network endpoint receiving install() RPCs.
-install_addr = "133.133.135.54:7700"
+install_addr = "127.0.0.1:7700"
 
 ############################### GENERIC CLIENT CONFIG ##########################
 

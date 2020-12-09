@@ -49,6 +49,10 @@ pub struct Extension {
 }
 
 // Implementation of methods on Extension.
+// A generator is a "resumable function" that syntactically resembles a closure
+// but compiles to much different semantics in the compiler itself.
+// The primary feature of a generator is that it can be suspended during execution to be resumed at a later date.
+// 参考 https://doc.rust-lang.org/beta/unstable-book/language-features/generators.html
 impl Extension {
     /// This function loads an .so file containing a symbol called "init" into
     /// the database. It returns a handle that can be used to retrieve a
@@ -189,6 +193,7 @@ impl ExtensionManager {
             // the extension manager. The bucket is determined by the
             // least significant byte of the tenant id.
             .and_then(|ext| {
+                // extensions bucket index
                 let bucket = (tenant & 0xff) as usize & (EXT_BUCKETS - 1);
                 self.extensions[bucket]
                     .write()

@@ -22,6 +22,8 @@ use sandstorm::buf::ReadBuf;
 use std::ops::{Generator, GeneratorState};
 use std::pin::Pin;
 
+/// This module maintains the state for client side execution.
+
 /// Pushback client uses this state for native excution.
 pub struct PushbackState {
     /// This distinguishes the operation number amoung multiple dependent operations.
@@ -118,6 +120,9 @@ impl PushbackState {
             // generator. It is unreachable and benign.
             yield 0;
         };
+
+        // Resumes the execution of this generator.
+        // This function will resume execution of the generator or start execution  if it hasn't already.
 
         match Pin::new(&mut generator).resume(()) {
             GeneratorState::Yielded(val) => {
