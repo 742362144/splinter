@@ -23,24 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a34b4ab9-c1e3-47b4-ad32-4dc1db183ae5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ext/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scripts/runall.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../db/server.toml-example" beforeDir="false" afterPath="$PROJECT_DIR$/../db/server.toml-example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ext/get/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../ext/get/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net/3rdparty/dpdk-confs/common_linuxapp-17.08" beforeDir="false" afterPath="$PROJECT_DIR$/../net/3rdparty/dpdk-confs/common_linuxapp-17.08" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net/3rdparty/dpdk-confs/common_linuxapp-17.08.container" beforeDir="false" afterPath="$PROJECT_DIR$/../net/3rdparty/dpdk-confs/common_linuxapp-17.08.container" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../net/build.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sandstorm/src/ext.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../sandstorm/src/ext.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../setup.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client.toml-example" beforeDir="false" afterPath="$PROJECT_DIR$/client.toml-example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bin/client/client.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/client/client.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/container.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/container.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dispatch.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/dispatch.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nativestate.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativestate.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/proxy.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/proxy.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sched.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/sched.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../util/src/model.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../util/src/model.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../db/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,19 +64,6 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
     <option name="version" value="2" />
@@ -107,6 +79,7 @@
       <workItem from="1606959333187" duration="12296000" />
       <workItem from="1606997333451" duration="349000" />
       <workItem from="1607516357652" duration="4231000" />
+      <workItem from="1607565641528" duration="44000" />
     </task>
     <servers />
   </component>

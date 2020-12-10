@@ -23,24 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="472d86c5-e972-4817-971e-4260ba59a2eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ext/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scripts/runall.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.toml-example" beforeDir="false" afterPath="$PROJECT_DIR$/server.toml-example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ext/get/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../ext/get/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net/3rdparty/dpdk-confs/common_linuxapp-17.08" beforeDir="false" afterPath="$PROJECT_DIR$/../net/3rdparty/dpdk-confs/common_linuxapp-17.08" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net/3rdparty/dpdk-confs/common_linuxapp-17.08.container" beforeDir="false" afterPath="$PROJECT_DIR$/../net/3rdparty/dpdk-confs/common_linuxapp-17.08.container" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../net/build.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sandstorm/src/ext.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../sandstorm/src/ext.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../setup.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../splinter/client.toml-example" beforeDir="false" afterPath="$PROJECT_DIR$/../splinter/client.toml-example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../splinter/src/bin/client/client.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../splinter/src/bin/client/client.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../splinter/src/container.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../splinter/src/container.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../splinter/src/dispatch.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../splinter/src/dispatch.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../splinter/src/nativestate.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../splinter/src/nativestate.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../splinter/src/proxy.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../splinter/src/proxy.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../splinter/src/sched.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../splinter/src/sched.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../util/src/model.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../util/src/model.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../splinter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../splinter/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,21 +64,6 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
     <option name="version" value="2" />
@@ -109,6 +79,7 @@
       <workItem from="1606995362109" duration="690000" />
       <workItem from="1607502880510" duration="1654000" />
       <workItem from="1607519381367" duration="1978000" />
+      <workItem from="1607565639399" duration="38000" />
     </task>
     <servers />
   </component>
