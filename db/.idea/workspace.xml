@@ -23,9 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="472d86c5-e972-4817-971e-4260ba59a2eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../set-net-25.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../set-net-30.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sshConfigs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/sshConfigs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/run-pushback" beforeDir="false" afterPath="$PROJECT_DIR$/../scripts/run-pushback" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../setup.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../splinter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../splinter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../splinter/client.toml-example" beforeDir="false" afterPath="$PROJECT_DIR$/../splinter/client.toml-example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../splinter/src/dispatch.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../splinter/src/dispatch.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +73,19 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
     <option name="version" value="2" />
@@ -80,6 +102,7 @@
       <workItem from="1607502880510" duration="1654000" />
       <workItem from="1607519381367" duration="1978000" />
       <workItem from="1607565639399" duration="38000" />
+      <workItem from="1607587128762" duration="2636000" />
     </task>
     <servers />
   </component>
@@ -103,9 +126,9 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1607503893244" />
-    <state x="1233" y="291" width="600" height="536" key="find.popup" timestamp="1607520147896">
+    <state x="1233" y="291" width="600" height="536" key="find.popup" timestamp="1607651576495">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="1233" y="291" width="600" height="536" key="find.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1607520147896" />
+    <state x="1233" y="291" width="600" height="536" key="find.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1607651576495" />
   </component>
 </project>

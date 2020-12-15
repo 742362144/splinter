@@ -25,6 +25,8 @@ if [[ ! -f client.toml ]]; then
     exit -1
 fi
 
+echo "starting benchmark..."
+
 # If a command line argument was provided, use it as a request rate for PUSHBACK.
 if [ $# -eq 2 ]
 then

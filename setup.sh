@@ -22,8 +22,11 @@ cd ../..
 mkdir -p net/target/native
 cp net/native/libzcsi.so net/target/native/libzcsi.so
 
-PCI=$(python ./net/3rdparty/dpdk/usertools/dpdk-devbind.py --status-dev=net | grep enp6s0f1 | grep Active | tail -1 | awk '{ print $1 }')
-MAC=$(ethtool -P enp6s0f1 | awk '{ print $3 }')
+#PCI=$(python ./net/3rdparty/dpdk/usertools/dpdk-devbind.py --status-dev=net | grep enp6s0f1 | grep Active | tail -1 | awk '{ print $1 }')
+#MAC=$(ethtool -P enp6s0f1 | awk '{ print $3 }')
+
+PCI=$(python ./net/3rdparty/dpdk/usertools/dpdk-devbind.py --status-dev=net | grep enp2s0f1 | grep Active | tail -1 | awk '{ print $1 }')
+MAC=$(ethtool -P enp2s0f1 | awk '{ print $3 }')
 
 echo "pci: $PCI" > nic_info
 echo "mac: $MAC" >> nic_info

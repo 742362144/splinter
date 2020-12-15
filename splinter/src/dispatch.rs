@@ -282,9 +282,11 @@ impl Sender {
 
         // Update the number of requests sent out by this generator.
         let r = self.requests_sent.get();
+        info!("{}", r);
         if r & 0xffffff == 0 {
             info!("Sent many requests...");
         }
+        info!("Sent 1000 requests...");
         self.requests_sent.set(r + 1);
     }
 

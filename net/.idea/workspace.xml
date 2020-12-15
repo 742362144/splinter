@@ -18,11 +18,8 @@
     </expand>
     <select />
   </component>
-  <component name="CargoProjects">
-    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a34b4ab9-c1e3-47b4-ad32-4dc1db183ae5" name="Default Changelist" comment="">
+    <list default="true" id="e22405bd-d78c-478b-8124-5ff82ca92f9e" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../set-net-25.sh" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../set-net-30.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/deployment.xml" afterDir="false" />
@@ -30,12 +27,9 @@
       <change beforePath="$PROJECT_DIR$/../.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../db/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../db/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net/framework/src/native/zcsi/mbuf.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../net/framework/src/native/zcsi/mbuf.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../scripts/run-pushback" beforeDir="false" afterPath="$PROJECT_DIR$/../scripts/run-pushback" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../setup.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bin/client/pushback.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/client/pushback.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dispatch.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/dispatch.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../splinter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../splinter/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +40,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="6pg3z7xa" />
+    <option name="directoryName" value="ll1yyh2f" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -55,7 +49,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1l7sBxlV2wNyIpSyB4ARIthh1Fa" />
+  <component name="ProjectId" id="1lUYlB0khihMbDa8RsL0pAMPyz9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -65,14 +59,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../NetBricks" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -87,25 +74,16 @@
       </method>
     </configuration>
   </component>
-  <component name="RustProjectSettings">
-    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
-    <option name="version" value="2" />
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a34b4ab9-c1e3-47b4-ad32-4dc1db183ae5" name="Default Changelist" comment="" />
-      <created>1606959332129</created>
+      <changelist id="e22405bd-d78c-478b-8124-5ff82ca92f9e" name="Default Changelist" comment="" />
+      <created>1607653285295</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1606959332129</updated>
-      <workItem from="1606959333187" duration="12296000" />
-      <workItem from="1606997333451" duration="349000" />
-      <workItem from="1607516357652" duration="4231000" />
-      <workItem from="1607565641528" duration="44000" />
-      <workItem from="1607585468979" duration="941000" />
-      <workItem from="1607587119848" duration="8000" />
-      <workItem from="1607657146362" duration="711000" />
+      <updated>1607653285295</updated>
+      <workItem from="1607653286368" duration="41000" />
+      <workItem from="1607994788025" duration="306000" />
     </task>
     <servers />
   </component>
@@ -125,17 +103,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1606977153293">
+    <state x="724" y="288" width="600" height="536" key="find.popup" timestamp="1607994951108">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1606977153293" />
-    <state x="724" y="288" width="600" height="536" key="find.popup" timestamp="1607519264629">
-      <screen x="0" y="0" width="2048" height="1112" />
-    </state>
-    <state x="724" y="288" width="600" height="536" key="find.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1607519264629" />
-    <state x="681" y="259" key="run.anything.popup" timestamp="1606984610860">
-      <screen x="0" y="0" width="2048" height="1112" />
-    </state>
-    <state x="681" y="259" key="run.anything.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1606984610860" />
+    <state x="724" y="288" width="600" height="536" key="find.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1607994951108" />
   </component>
 </project>
